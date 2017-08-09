@@ -31,7 +31,7 @@ public class UploadServlet extends HttpServlet {
     public void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException,
             ServletException {
         Part filePart = req.getPart("photo");
-        String fileName = "qwerty555.jpg";
+        String fileName = "qwerty555421.jpg";
 
         // Modify access list to allow all users with link to read file
         List<Acl> acls = new ArrayList();
